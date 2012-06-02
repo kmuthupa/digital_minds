@@ -15,3 +15,5 @@ results/*
 rcov/*
 test/performance/public/*
 coverage/*
+db/development.sqlite3
+db/test.sqlite3
