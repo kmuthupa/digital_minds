@@ -1,0 +1,17 @@
+.sass-cache/
+.DS_Store
+*.swp
+.bundle/*
+.rvmrc
+ignored/*
+db/schema.rb
+config/database.yml
+log/*
+logs/*
+public/version.txt
+tmp/
+tmp/**/*
+results/*
+rcov/*
+test/performance/public/*
+coverage/*
