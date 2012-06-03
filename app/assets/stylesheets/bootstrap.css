@@ -1,4 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@font-face {
+   font-family: Graduate;
+   src: url("Graduate-Regular.ttf");
+}
+
+@font-face {
+   font-family: RussoOne;
+   src: url("RussoOne-Regular.ttf");
+}
 /*!
  * Bootstrap v2.0.3
  *
@@ -131,7 +139,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: 'Ubuntu', Tahoma, sans-serif;
+  font-family: 'Graduate', Tahoma, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #333333;
@@ -342,7 +350,7 @@ a:hover {
 }
 p {
   margin: 0 0 9px;
-  font-family: 'Ubuntu', Tahoma, sans-serif;
+  font-family: 'RussoOne', Tahoma, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
@@ -629,7 +637,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Ubuntu', Tahoma, sans-serif;
+  font-family: 'Graduate', Tahoma, sans-serif;
 }
 label {
   display: block;
@@ -3064,7 +3072,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-search .search-query {
   padding: 4px 9px;
-  font-family: 'Ubuntu', Tahoma, sans-serif;
+  font-family: 'Graduate', Tahoma, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;

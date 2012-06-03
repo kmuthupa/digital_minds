@@ -7,3 +7,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+// *** set carousel interval *** //
+$(document).ready(function() {
+	
+	$('.carousel').carousel({
+		interval: 3500
+	});	
+	
+});

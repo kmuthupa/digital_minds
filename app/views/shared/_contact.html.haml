@@ -1,0 +1,20 @@
+#contact{:class => 'modal hide fade', :url => contact_url}
+  .modal-header
+    %h1 Contact Digital Minds
+  .modal-body
+    .form
+      %p
+        %br
+      = form_tag(contact_path, :id => 'contact-form') do
+        %label.label Name*
+        = text_field_tag 'name'      
+        %label.label Email*
+        = text_field_tag 'email'
+        %label.label This is about
+        = select_tag 'about', options_for_select(['New opportunity', 'Questions', 'Other'])
+        %label.label
+        = text_area_tag 'comments', nil, :placeholder => 'Use this space to reach out to us about a new opportunity or if you want ask us as general question'
+  .modal-footer
+    .loader{:style => 'display: none;', :class => 'pull-left'}
+      = image_tag('loader.gif')
+    = link_to('Submit', '#', :id => 'contact-submit', :class => 'btn btn-primary btn-large pull-left')
