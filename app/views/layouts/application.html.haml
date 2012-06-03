@@ -17,9 +17,6 @@
           .nav-collapse
             %ul{:class => 'nav nav-pills'}
               = render 'shared/links'
-          .pull-right
-            = link_to(image_tag('twitter_logo.png', :size => '35x35'), 'http://www.twitter.com')
-            = link_to(image_tag('facebook_logo.jpeg', :size => '35x35'), 'http://www.facebook.com')
     .container.main
       .notice-area
         = render 'shared/flashes'
@@ -29,5 +26,7 @@
       .center
         %span{:class => 'badge badge-info'} 
           &copy; 2012. Digital Minds Technologies Inc. All rights reserved.
+        = link_to(image_tag('twitter_logo.png'), 'http://www.twitter.com')
+        = link_to(image_tag('facebook_logo.png'), 'http://www.facebook.com')
     = render 'shared/contact'
 
