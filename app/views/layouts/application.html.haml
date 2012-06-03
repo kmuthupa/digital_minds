@@ -1,0 +1,30 @@
+!!!
+%html
+  %head
+    %title Digital Minds
+    = favicon_link_tag
+    = stylesheet_link_tag 'print.css', :media => 'print'
+    = stylesheet_link_tag 'application.css', :media => 'screen, projection'
+    /[if lt IE 8]
+      = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
+    = csrf_meta_tag
+    = javascript_include_tag 'application'
+  %body
+    .navbar
+      .navbar-inner
+        .container
+          %a{:class => 'brand', :href => root_url}
+            Digital Minds
+          .nav-collapse
+            %ul{:class => 'nav nav-pills'}
+              = render 'shared/links'
+    .container.main
+      .notice-area
+        = render 'shared/flashes'
+      = yield
+    .footer
+      %hr
+      .center
+        %span{:class => 'badge badge-info'} 
+          Digital Minds Technologies Inc., Copyright &copy; 2012
+
