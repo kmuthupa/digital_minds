@@ -4,7 +4,6 @@ gem 'rails', '3.1.0'
 gem 'formtastic', '2.0'
 gem 'haml', '3.1.2'
 gem 'heroku'
-gem 'sqlite3'
 gem 'jquery-rails'
 
 group :assets do
@@ -14,6 +13,7 @@ group :assets do
 end
 
 group :development do
+  gem 'sqlite3'
   gem 'annotate', '2.4.0'
   gem "awesome_print"
   gem 'active_reload'
