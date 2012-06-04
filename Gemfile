@@ -5,6 +5,7 @@ gem 'formtastic', '2.0'
 gem 'haml', '3.1.2'
 gem 'heroku'
 gem 'jquery-rails'
+gem 'thin'
 
 group :assets do
   gem 'sass-rails', "  ~> 3.1.0"
