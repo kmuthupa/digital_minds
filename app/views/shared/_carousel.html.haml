@@ -1,19 +1,16 @@
-#walkthru-carousel{:class => 'carousel'}
+#walkthru-carousel{:class => 'carousel slide'}
   .carousel-inner
     %div{:class => 'active item'}
-      .carousel-container
-        %h2 Big Data Analytics and Services
-        %br
-        = image_tag('big_data.jpg', :size => '700x300')
+      = image_tag('big_data.jpg', :size => '940x400')
+      .carousel-caption
+        %h4.center Big Data Analytics and Services
     %div{:class => 'item'}
-      .carousel-container
-        %h2 Data Warehousing Expertise
-        %br
-        = image_tag('analytics.jpg', :size => '700x300')
+      = image_tag('analytics.jpg', :size => '940x400') 
+      .carousel-caption
+        %h4.center Data Warehousing Expertise
     %div{:class => 'item'}
-      .carousel-container
-        %h2 Business Intelligence Services
-        %br
-        = image_tag('cloud_computing.jpg', :size => '700x300')
+      = image_tag('cloud_computing.jpg', :size => '940x400')
+      .carousel-caption
+        %h4.center Business Intelligence Services
   %a{:class => 'carousel-control left', :href => "#walkthru-carousel", "data-slide" => "prev"} &lsaquo;
   %a{:class => 'carousel-control right', :href => "#walkthru-carousel", "data-slide" => "next"} &rsaquo;
