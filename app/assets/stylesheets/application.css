@@ -9,3 +9,11 @@
 .hero-unit h6 {
 	font-size: 120%;
 }
+p.inline-errors {
+    margin-top: 0px!important;
+    font-size: 12px!important;
+    color: #b94a48;
+    display: inline;        
+    margin-left: 2%;
+    vertical-align: top;
+}
