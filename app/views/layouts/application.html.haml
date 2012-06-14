@@ -11,7 +11,7 @@
       .navbar-inner
         .container
           %a{:class => 'brand', :href => root_url}
-            Digital Mind
+            = image_tag('logo.png', :size => '220x80')
           .nav-collapse
             %ul{:class => 'nav nav-pills'}
               = render 'shared/links'

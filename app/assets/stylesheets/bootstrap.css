@@ -3829,7 +3829,7 @@ a.badge:hover {
 }
 .label-info,
 .badge-info {
-  background-color: #DD4814;
+  background-color: #000;
 }
 .label-info[href],
 .badge-info[href] {
