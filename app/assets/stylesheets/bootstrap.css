@@ -2441,6 +2441,7 @@ input[type="submit"].btn.btn-mini {
   *padding-bottom: 1px;
 }
 .btn-group {
+  padding-top: 30px;
   position: relative;
   *zoom: 1;
   *margin-left: .3em;
@@ -2460,7 +2461,8 @@ input[type="submit"].btn.btn-mini {
   margin-left: 5px;
 }
 .btn-toolbar {
-  margin-top: 9px;
+  padding-top: 30px;
+  margin-top: 20px;
   margin-bottom: 9px;
 }
 .btn-toolbar .btn-group {
@@ -2969,13 +2971,13 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #d44413;
-  background-image: -moz-linear-gradient(top, #ce4213, #dd4814);
-  background-image: -ms-linear-gradient(top, #ce4213, #dd4814);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ce4213), to(#dd4814));
-  background-image: -webkit-linear-gradient(top, #ce4213, #dd4814);
-  background-image: -o-linear-gradient(top, #ce4213, #dd4814);
-  background-image: linear-gradient(top, #ce4213, #dd4814);
+  background-color: whiteSmoke;
+  background-image: -moz-linear-gradient(top, #ffffff, whiteSmoke);
+  background-image: -ms-linear-gradient(top, #ffffff, whiteSmoke);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(whiteSmoke));
+  background-image: -webkit-linear-gradient(top, #ffffff, whiteSmoke);
+  background-image: -o-linear-gradient(top, #ffffff, whiteSmoke);
+  background-image: linear-gradient(top, #ffffff, whiteSmoke);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce4213', endColorstr='#dd4814', GradientType=0);
   -webkit-border-radius: 4px;
@@ -2992,7 +2994,7 @@ input[type="submit"].btn.btn-mini {
   height: auto;
 }
 .navbar {
-  color: #ffffff;
+  color: #DD4814;
 }
 .navbar .brand:hover {
   text-decoration: none;
@@ -3159,9 +3161,9 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .btn-group {
   margin: 0;
-  padding: 5px 5px 6px;
+  padding: 3px 3px 6px;
 }
-.navbar .nav > li > a:hover {
+/*.navbar .nav > li > a:hover {
   background-color: transparent;
   color: #ffffff;
   text-decoration: none;
@@ -3171,7 +3173,7 @@ input[type="submit"].btn.btn-mini {
   color: #ffffff;
   text-decoration: none;
   background-color: #dd4814;
-}
+}*/
 .navbar .divider-vertical {
   height: 40px;
   width: 1px;
