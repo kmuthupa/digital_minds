@@ -417,9 +417,10 @@ h5 {
   font-size: 12px;
 }
 h6 {
-  font-size: 11px;
+  font-size: 15px;
   color: #999999;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 .page-header {
   padding-bottom: 17px;
@@ -441,7 +442,11 @@ ol ul {
   margin-bottom: 0;
 }
 ul {
-  list-style: disc;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 10px;
+  font-size: 110%;
 }
 ol {
   list-style: decimal;
