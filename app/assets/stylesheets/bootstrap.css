@@ -3168,7 +3168,7 @@ input[type="submit"].btn.btn-mini {
   margin: 0;
   padding: 3px 3px 6px;
 }
-/*.navbar .nav > li > a:hover {
+.navbar .nav > li > a:hover {
   background-color: transparent;
   color: #ffffff;
   text-decoration: none;
@@ -3178,7 +3178,7 @@ input[type="submit"].btn.btn-mini {
   color: #ffffff;
   text-decoration: none;
   background-color: #dd4814;
-}*/
+}
 .navbar .divider-vertical {
   height: 40px;
   width: 1px;
