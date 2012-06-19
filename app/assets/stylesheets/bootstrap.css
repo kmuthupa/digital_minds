@@ -2974,8 +2974,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-inner {
   min-height: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 170px;
   background-color: whiteSmoke;
   background-image: -moz-linear-gradient(top, #ffffff, whiteSmoke);
   background-image: -ms-linear-gradient(top, #ffffff, whiteSmoke);
@@ -3007,7 +3006,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   float: left;
   display: block;
-  padding: 8px 20px 12px;
+  padding: 5px 5px 5px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
@@ -4160,15 +4159,15 @@ a.badge:hover {
   color: #ffffff;
 }
 .hero-unit {
-  padding: 40px;
+  padding: 20px;
   margin-bottom: 30px;
-  background-color: #d5e4dd;
-  background-image: -moz-linear-gradient(top, #ffffff, #d5e4dd);
-  background-image: -ms-linear-gradient(top, #ffffff, #d5e4dd);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#d5e4dd));
-  background-image: -webkit-linear-gradient(top, #ffffff, #d5e4dd);
-  background-image: -o-linear-gradient(top, #ffffff, #d5e4dd);
-  background-image: linear-gradient(top, #ffffff, #d5e4dd);
+  background-color: whiteSmoke;
+  background-image: -moz-linear-gradient(top, whiteSmoke, whiteSmoke);
+  background-image: -ms-linear-gradient(top, whiteSmoke, whiteSmoke);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(whiteSmoke), to(whiteSmoke));
+  background-image: -webkit-linear-gradient(top, whiteSmoke, whiteSmoke);
+  background-image: -o-linear-gradient(top, whiteSmoke, whiteSmoke);
+  background-image: linear-gradient(top, whiteSmoke, whiteSmoke);
   background-repeat: repeat-x;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
