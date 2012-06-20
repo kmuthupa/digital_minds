@@ -2974,7 +2974,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inner {
   min-height: 40px;
   padding-left: 200px;
-  background-color: whiteSmoke;
+  background-color: #FFFFFF;
   background-image: -moz-linear-gradient(top, #ffffff, whiteSmoke);
   background-image: -ms-linear-gradient(top, #ffffff, whiteSmoke);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(whiteSmoke));
