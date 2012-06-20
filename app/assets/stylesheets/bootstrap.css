@@ -2982,7 +2982,6 @@ input[type="submit"].btn.btn-mini {
   background-image: -o-linear-gradient(top, #ffffff, whiteSmoke);
   background-image: linear-gradient(top, #ffffff, whiteSmoke);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce4213', endColorstr='#dd4814', GradientType=0);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
