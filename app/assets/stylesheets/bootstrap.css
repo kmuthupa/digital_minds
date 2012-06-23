@@ -2222,10 +2222,13 @@ button.close {
 .btn-danger:hover,
 .btn-success,
 .btn-success:hover,
-.btn-info,
 .btn-inverse,
 .btn-inverse:hover {
   color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.btn-info { 
+  color: #000;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .btn-primary.active,
@@ -2356,12 +2359,11 @@ button.close {
 .btn-success.active {
   background-color: #408140 \9;
 }
-.btn-info {
-    background-color:  #004879;
-    background-image: -moz-linear-gradient(center top , #004879, #004879);
+/*.btn-info {
+    background-color:  #56d451;
+    background-image: -moz-linear-gradient(center top , #56d451, #56d451);
     background-repeat: repeat-x;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-}
+}*/
 .btn-info:hover,
 .btn-info:active,
 .btn-info.active,
@@ -2372,7 +2374,7 @@ button.close {
 }
 .btn-info:active,
 .btn-info.active {
-  background-color: #511c39 \9;
+  background-color: #56d451 \9;
 }
 .btn-inverse {
   background-color: #414141;
@@ -3130,10 +3132,6 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li {
   display: block;
   float: left;
-}
-.navbar .nav > li > a {
-  border-left: 1px solid #E6633A;
-  border-right: 1px solid #C03D14;
 }
 .navbar .btn {
   display: inline-block;
@@ -4173,10 +4171,6 @@ a.badge:hover {
 }
 .invisible {
   visibility: hidden;
-}
-.navbar .nav > li > a {
-  border-right: 1px solid #C03D14;
-  border-left: 1px solid #E6633A;
 }
 .navbar .nav > li > a:hover {
   background-color: #97310e;
