@@ -142,7 +142,8 @@ a {
 }
 a:hover {
   color: #97310e;
-  text-decoration: underline;
+  text-decoration: none;
+  background-color: #F6F6F6;
 }
 .row {
   margin-left: -20px;
