@@ -10,8 +10,9 @@
     .navbar
       .navbar-inner
         .container
-          %a{:href => root_url, :style => 'float: left;'}
-            = image_tag('logo.png', :size => '386x98', :style => "margin-left: 18px;")
+          .logo-container
+            %a{:href => root_url}
+              = image_tag('logo.png', :size => '386x98', :style => "margin-left: 18px;")
           %ul{:class => 'nav btn-toolbar', :style => "margin-left: 58px"}
             = render 'shared/links'
           .social{:class => 'pull-left'}

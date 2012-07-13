@@ -2952,6 +2952,9 @@ input[type="submit"].btn.btn-mini {
   line-height: 1;
   color: #ffffff;
 }
+.navbar .logo-container {
+  float: left;
+}
 .navbar .navbar-text {
   margin-bottom: 0;
   line-height: 40px;
