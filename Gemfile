@@ -8,8 +8,8 @@ gem 'jquery-rails'
 gem 'thin'
 
 group :assets do
-  gem 'sass-rails', "  ~> 3.1.0"
-  gem 'coffee-rails', "~> 3.1.0"
+  gem 'sass-rails', '~> 3.1.6'
+  gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier'
 end
 
@@ -25,7 +25,7 @@ group :production do
 end
 
 group :test do
-  gem "rspec-rails", "~> 2.4"
+  gem "rspec-rails", "~> 2.6", ">= 2.6.1"
 end
 
 
