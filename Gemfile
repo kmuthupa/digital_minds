@@ -1,15 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'rails', '7.1.0'
 gem 'formtastic', '2.0'
 gem 'haml', '3.1.2'
 gem 'heroku'
-gem 'jquery-rails'
-gem 'thin'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'thin', '>= 1.4.0'
 
 group :assets do
   gem 'sass-rails', "  ~> 3.1.0"
-  gem 'coffee-rails', "~> 3.1.0"
+  gem 'coffee-rails', '~> 4.2.2'
   gem 'uglifier'
 end
 
@@ -25,7 +25,7 @@ group :production do
 end
 
 group :test do
-  gem "rspec-rails", "~> 2.4"
+  gem "rspec-rails", "~> 2.8", ">= 2.8.0"
 end
 
 
