@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
-gem 'formtastic', '2.0'
+gem 'rails', '7.1.5.2'
+gem 'formtastic', '2.1.0'
 gem 'haml', '3.1.2'
 gem 'heroku'
 gem 'jquery-rails'
